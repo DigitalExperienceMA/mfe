@@ -1,0 +1,43 @@
+{
+  "name": "reactxl",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode production",
+    "start": "webpack serve --mode development",
+    "standard": "npx standard --fix",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigitalExperienceMA/ReactXL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DigitalExperienceMA/ReactXL/issues"
+  },
+  "homepage": "https://github.com/DigitalExperienceMA/ReactXL#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.2",
+    "husky": "^7.0.2",
+    "standard": "^16.0.3",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  },
+  "standard": {
+    "ignore": [
+      "node_modules"
+    ]
+  }
+}
